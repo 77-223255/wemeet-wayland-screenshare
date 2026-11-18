@@ -1,0 +1,9 @@
+screencopy {
+    # Wemeet only reads plain memory (SHM); Hyprland hands out DMA-BUF by default,
+    # which the client cannot consume -> negotiated but black frames.
+    force_shm = true
+
+    # optional: the picker wemeet's portal call gets
+    # allow_token_by_default = true
+    # custom_picker_binary = hyprland-preview-share-picker
+}

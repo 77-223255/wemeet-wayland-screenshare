@@ -1,0 +1,4 @@
+*.so
+*.pkg.tar.zst
+*.tmp.*
+__pycache__/
